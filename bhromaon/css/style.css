@@ -652,10 +652,6 @@ h6 {
           justify-content: center;
 }
 
-.section6__img img {
-  width: 100%;
-}
-
 .section6__text {
   padding: 42px 20px 0px 60px;
 }
@@ -899,6 +895,12 @@ h6 {
 @media (max-width: 670px) {
   .section1__search {
     width: 99%;
+  }
+}
+
+@media (max-width: 600px) {
+  .section6__img img {
+    width: 100%;
   }
 }
 

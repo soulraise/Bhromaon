@@ -496,7 +496,9 @@ $color1: #ffffff;
 	}
 
 	&__img img {
-		width: 100%;
+		@media (max-width: 600px) {
+			width: 100%;
+		}
 	}
 
 	&__text {
